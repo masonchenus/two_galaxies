@@ -7,8 +7,8 @@
  * @return {object} Trajectory state object
  */
 export function init(positions, size=10000) {
-  let trajectories1 = Array(size * 3).fill(0);
-  let trajectories2 = Array(size * 3).fill(0);
+  let trajectories1 = Array(size * 5).fill(0);
+  let trajectories2 = Array(size * 5).fill(0);
 
   // Store positions of the two galaxy cores
   // ------
